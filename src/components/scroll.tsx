@@ -14,7 +14,7 @@ export default function Scroll({ children, reverse = false }: ScrollProps) {
         repeat: Infinity,
         duration: 5,
         ease: "linear",
-        repeatType: "mirror",
+        repeatType: "reverse",
       }}
       className="flex flex-col gap-5"
     >
